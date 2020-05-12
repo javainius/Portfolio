@@ -32,7 +32,29 @@
   .introduction h1{
     min-width: 330px;
     width: 50%;
-    padding: 3px
+    padding: 3px;
+    margin-bottom: 50%;
+  }
+  .introduction{
+    height: 500px;
+    top: 15%;
+  }
+}
+
+@media (max-width: 380px) {
+  .introduction h1{
+    font-size: 32px;
+    width: 90%;
+    min-width: 0px;
+    padding: 3px;
+  }
+  .introduction{
+    height: 500px;
+    top: 20%;
+  }
+  .introduction h2{
+    margin: 3 auto 0 auto;
+    font-size: 30px;
   }
 }
 

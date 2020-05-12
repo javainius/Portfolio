@@ -1,13 +1,15 @@
 .toggle-button {
+    top: 40%;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 24px;
-    width: 30px;
-    background: transparent;
+    height: 65px;
+    width: 75px;
+    background: black;
     border: none;
     cursor: pointer;
-    padding: 0;
+    padding: 10px 10px 10px 22px;
     box-sizing: border-box;
 }
 
@@ -17,6 +19,6 @@
 
 .toggle-button_line {
     width: 30px;
-    height: 2px;
+    height: 3px;
     background: white;
 }
