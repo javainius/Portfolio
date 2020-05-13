@@ -1,8 +1,13 @@
 import React from 'react';
 import './SideDrawer.css';
+import { Link } from "react-scroll";
+
+    //  import { Link, Element , Events, animateScroll as
+    //     scroll, scrollSpy, scroller } from 'react-scroll';
 
 interface IProps {
     show: Boolean;
+    click: any;
 }
 
 const SideDrawer = (props: IProps) => {
@@ -12,11 +17,37 @@ const SideDrawer = (props: IProps) => {
         drawerClasses = 'side-drawer open';
     }
 
+    
     return (
         <nav className={drawerClasses}>
             <ul>
-                <li><a href="/">Products</a></li>
-                <li><a href="/">Users</a></li>
+                <Link
+                 activeClass="active"
+                 to="Education"
+                 onClick={props.click}
+                 spy={true}
+                 smooth={true}
+                 offset={0}
+                 duration={1500}
+                >Education</Link>
+                <Link
+                 activeClass="active"
+                 to="Experience"
+                 onClick={props.click}
+                 spy={true}
+                 smooth={true}
+                 offset={0}
+                 duration={1500}
+                >Experience</Link>
+                <Link
+                 activeClass="active"
+                 to="TechStack"
+                 onClick={props.click}
+                 spy={true}
+                 smooth={true}
+                 offset={0}
+                 duration={1500}
+                >Tech stack</Link>
             </ul>
         </nav>
     );

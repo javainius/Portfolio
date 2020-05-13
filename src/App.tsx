@@ -3,6 +3,9 @@ import './App.css';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import DrawerToggleButton from './components/SideDrawer/DrawerToggleButton';
+import Content from './components/Content/Content'
+import Introduction from './components/Introduction/Introduction'
+
 
 class App extends Component {
   state = {
@@ -15,24 +18,22 @@ class App extends Component {
     });
   };
 
-  backdropClickHandler = () => {
+  backdropClosingClickHandler = () => {
     this.setState({sideDrawerOpen: false});
   };
 
   render(){
     let backdrop;
     if (this.state.sideDrawerOpen) {
-      backdrop = <Backdrop click={this.backdropClickHandler} />
+      backdrop = <Backdrop click={this.backdropClosingClickHandler} />
     }
     return (
       <div className="App">
-        <SideDrawer show={this.state.sideDrawerOpen}/>
+        <SideDrawer click={this.backdropClosingClickHandler} show={this.state.sideDrawerOpen}/>
         {backdrop}
         <DrawerToggleButton click={this.drawerToggleClickHandler}/>
-        <div className="introduction">
-          <h1>Vainius Baranauskas</h1>
-          <h2>web developer</h2>
-        </div>
+        <Introduction/>
+        <Content/>
       </div>
     );
   }

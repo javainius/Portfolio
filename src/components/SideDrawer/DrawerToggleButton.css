@@ -1,6 +1,7 @@
 .toggle-button {
     top: 40%;
     position: fixed;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -11,6 +12,7 @@
     cursor: pointer;
     padding: 10px 10px 10px 22px;
     box-sizing: border-box;
+    box-shadow: 5px 0px 35px rgba(0, 0, 0, 0.5);
 }
 
 .toggle-button:focus {

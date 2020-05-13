@@ -1,0 +1,74 @@
+.background{
+    height: 20%;
+    background: linear-gradient(209deg, rgb(5, 45, 224), rgb(13, 252, 237), rgb(223, 13, 252), rgb(6, 189, 49)) 0% 0% / 400% 400%;
+    animation: 9s ease-in-out 0s infinite normal none running CustomAnimation;
+  }
+  
+  .introduction{
+    width: 100%;
+    position: relative;
+    top: 32%;
+    text-align: center;
+    font-family: Lato;
+    color: #fff;
+  }
+  
+  .introduction h1{
+    font-size: 45px;
+    margin: 0;
+    margin: auto;
+    text-transform: uppercase;
+    border: 3px solid;
+    padding: 3px 15px;
+    width: 500px;
+  }
+  
+  .introduction h2{
+    margin: 3 auto 0 auto;
+    font-size: 40px;
+  }
+  
+  @media (max-width: 720px) {
+    .introduction h1{
+      min-width: 330px;
+      width: 50%;
+      padding: 3px;
+      margin-bottom: 50%;
+    }
+    .introduction{
+      height: 500px;
+      top: 15%;
+    }
+  }
+  
+  @media (max-width: 380px) {
+    .introduction h1{
+      font-size: 32px;
+      width: 90%;
+      min-width: 0px;
+      padding: 3px;
+    }
+    .introduction{
+      height: 500px;
+      top: 20%;
+    }
+    .introduction h2{
+      margin: 3 auto 0 auto;
+      font-size: 30px;
+    }
+  }
+  
+  
+  @keyframes CustomAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
