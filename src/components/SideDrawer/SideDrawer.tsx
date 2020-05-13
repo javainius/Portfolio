@@ -29,7 +29,13 @@ const SideDrawer = (props: IProps) => {
                  smooth={true}
                  offset={0}
                  duration={1500}
-                >Education</Link>
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Education
+                </Link>
                 <Link
                  activeClass="active"
                  to="Experience"
@@ -38,7 +44,13 @@ const SideDrawer = (props: IProps) => {
                  smooth={true}
                  offset={0}
                  duration={1500}
-                >Experience</Link>
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Experience
+                </Link>
                 <Link
                  activeClass="active"
                  to="TechStack"
@@ -47,7 +59,13 @@ const SideDrawer = (props: IProps) => {
                  smooth={true}
                  offset={0}
                  duration={1500}
-                >Tech stack</Link>
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Tech stack
+                </Link>
             </ul>
         </nav>
     );
