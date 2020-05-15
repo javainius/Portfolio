@@ -25,6 +25,7 @@
 }
 
 .side-drawer a {
+    cursor: pointer;
     text-align: center;
     box-sizing: border-box;
     width: 70%;

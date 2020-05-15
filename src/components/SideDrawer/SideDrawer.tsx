@@ -38,7 +38,7 @@ const SideDrawer = (props: IProps) => {
                 </Link>
                 <Link
                     activeClass="active"
-                    to="TechStack"
+                    to="AboutMe"
                     onClick={props.click}
                     spy={true}
                     smooth={true}
@@ -98,7 +98,7 @@ const SideDrawer = (props: IProps) => {
                 </Link>
                 <Link
                     activeClass="active"
-                    to="Education"
+                    to="Projects"
                     onClick={props.click}
                     spy={true}
                     smooth={true}
@@ -113,7 +113,7 @@ const SideDrawer = (props: IProps) => {
                 </Link>
                 <Link
                     activeClass="active"
-                    to="Education"
+                    to="Contacts"
                     onClick={props.click}
                     spy={true}
                     smooth={true}

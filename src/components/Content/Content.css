@@ -1,0 +1,34 @@
+.aboutMeParallax,
+.techStackParallax,
+.experienceParallax,
+.educationParallax,
+.projectsParallax,
+.contactsParallax
+ {
+    background-image: url("./ParallaxImg/CodingPassion.jpg");
+    min-height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.techStackParallax{
+    background-image: url("./ParallaxImg/TechStack.jpg");
+}
+
+.experienceParallax {
+    background-image: url("./ParallaxImg/DirtyHands.jpg");
+}
+
+.educationParallax {
+    background-image: url("./ParallaxImg/Education.jpg");
+}
+
+.projectsParallax {
+    background-image: url("./ParallaxImg/Projects.jpg");
+}
+
+.contactsParallax {
+    background-image: url("./ParallaxImg/Contacts.jpg");
+}

@@ -1,5 +1,5 @@
-.background{
-    height: 20%;
+.intro-background{
+    height: 100%;
     background: linear-gradient(209deg, rgb(5, 45, 224), rgb(13, 252, 237), rgb(223, 13, 252), rgb(6, 189, 49)) 0% 0% / 400% 400%;
     animation: 9s ease-in-out 0s infinite normal none running CustomAnimation;
   }
