@@ -10,17 +10,11 @@ import './Content.css';
 const Content = () => {
     return(
         <div className="content">
-            <div className="aboutMeParallax"></div>
             <AboutMe/>
-            <div className="techStackParallax"></div>
             <TechStack/>
-            <div className="experienceParallax"></div>
             <Experience/>
-            <div className="educationParallax"></div>
             <Education/>
-            <div className="projectsParallax"></div>
             <Projects/>
-            <div className="contactsParallax"></div>
             <Contacts/>
         </div>
     );

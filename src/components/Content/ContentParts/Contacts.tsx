@@ -3,6 +3,7 @@ import React from 'react';
 const Contacts = () => {
     return(
         <div id="Contacts">
+            <h1>Contacts</h1>
             <p>
                 Phone: +37069152134 <br/> 
                 mail: vainiusbaran@gmail.com <br/>

@@ -3,6 +3,7 @@ import React from 'react';
 const Experience = () => {
     return(
         <div id="Experience">
+            <h1>Experience</h1>
             <p id="Experience">
             2019 November – December internship at Macaw
             (IT company based in Netherlands) 

@@ -3,6 +3,7 @@ import React from 'react';
 const AboutMe = () => {
     return(
         <div id="AboutMe">
+            <h1>About me</h1>
             <p>
                 I am studying multimedia and computer design at Vilnius Gediminas 
                 Technical University. Currently I am in the second year, but I want 

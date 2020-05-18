@@ -29,6 +29,7 @@ class App extends Component {
     }
     return (
       <div className="App">
+        <div className="background"></div>
         <SideDrawer click={this.backdropClosingClickHandler} show={this.state.sideDrawerOpen}/>
         {backdrop}
         <DrawerToggleButton click={this.drawerToggleClickHandler}/>

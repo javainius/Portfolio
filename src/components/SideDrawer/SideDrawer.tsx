@@ -109,7 +109,7 @@ const SideDrawer = (props: IProps) => {
                         <span></span>
                         <span></span>
                         <span></span>
-                        Personal projects 
+                        Projects 
                 </Link>
                 <Link
                     activeClass="active"
