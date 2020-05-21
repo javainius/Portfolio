@@ -3,13 +3,20 @@
     margin-top: 50%;
 }
 
-.content div{
-    background: white;
-    margin-bottom: 20%;
+.content>div{
+    background: black;
+    color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 7%;
     font-size: 25px;
+    margin: 0 5% 20% 5%;
+    /* opacity: 0.2; */
+    box-shadow: 20px 20px 1000px black
 }
 .content ul{
     list-style-type: none;
+}
+
+#Projects ul {
+    padding: 0;
 }

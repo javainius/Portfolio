@@ -42,7 +42,7 @@ const SideDrawer = (props: IProps) => {
                     onClick={props.click}
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-200}
                     duration={1500}
                     >
                         <span></span>
@@ -57,7 +57,7 @@ const SideDrawer = (props: IProps) => {
                     onClick={props.click}
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-200}
                     duration={1500}
                     >
                         <span></span>
@@ -72,7 +72,7 @@ const SideDrawer = (props: IProps) => {
                     onClick={props.click}
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-200}
                     duration={1500}
                     >
                         <span></span>
@@ -87,7 +87,7 @@ const SideDrawer = (props: IProps) => {
                     onClick={props.click}
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-200}
                     duration={1500}
                     >
                         <span></span>
@@ -102,7 +102,7 @@ const SideDrawer = (props: IProps) => {
                     onClick={props.click}
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-200}
                     duration={1500}
                     >
                         <span></span>
@@ -117,7 +117,7 @@ const SideDrawer = (props: IProps) => {
                     onClick={props.click}
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-200}
                     duration={1500}
                     >
                         <span></span>

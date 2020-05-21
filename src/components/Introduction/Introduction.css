@@ -6,7 +6,13 @@
     top: 32%;
     text-align: center;
     color: #fff;
+    animation: fadein 6s;
   }
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
   
   .introduction h1{
     font-size: 45px;
