@@ -4,12 +4,21 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const TechStack = () => {
+    var itemsToShow = 6
+
+    if(window.screen.width <= 950 && window.screen.width > 375){
+        itemsToShow = 4
+    }
+    else if (window.screen.width <= 375){
+        itemsToShow = 3
+    }
+
     return(
         <div id="TechStack">
             <h1>Tech stack</h1>
             <OwlCarousel
                 className="owl-theme"
-                items={6}
+                items={itemsToShow}
                 loop
                 autoplayTimeout={2000}
                 dots={false}

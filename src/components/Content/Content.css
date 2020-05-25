@@ -10,13 +10,20 @@
     padding: 20px 7%;
     font-size: 25px;
     margin: 0 5% 20% 5%;
-    /* opacity: 0.2; */
+    opacity: 0.9;
     box-shadow: 20px 20px 1000px black
 }
 .content ul{
     list-style-type: none;
+    padding: 0;
 }
 
-#Projects ul {
-    padding: 0;
+.content a{
+    color: rgb(160, 19, 160);
+}
+
+@media (max-width: 600px) {
+    .content>div{
+        font-size: 15px;
+    }
 }
