@@ -2,9 +2,6 @@ import React from 'react';
 import './SideDrawer.css';
 import { Link } from "react-scroll";
 
-    //  import { Link, Element , Events, animateScroll as
-    //     scroll, scrollSpy, scroller } from 'react-scroll';
-
 interface IProps {
     show: Boolean;
     click: any;
