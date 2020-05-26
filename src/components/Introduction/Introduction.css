@@ -1,9 +1,8 @@
 
-  
   .introduction{
-    width: 100%;
     position: relative;
-    top: 32%;
+    top: 35%;
+    /* margin-top: 50%; */
     text-align: center;
     color: #fff;
     animation: fadein 6s;
@@ -37,6 +36,7 @@
       margin-bottom: 50%;
     }
     .introduction{
+      color: rgb(0, 0, 0);
       height: 500px;
       top: 15%;
     }

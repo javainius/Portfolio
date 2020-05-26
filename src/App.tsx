@@ -29,11 +29,13 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <div className="background"></div>
+        <div className="parallax">
+          <Introduction/>
+        </div>
         <SideDrawer click={this.backdropClosingClickHandler} show={this.state.sideDrawerOpen}/>
         {backdrop}
         <DrawerToggleButton click={this.drawerToggleClickHandler}/>
-        <Introduction/>
+        
         <Content/>
       </div>
     );

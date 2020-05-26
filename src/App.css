@@ -4,11 +4,25 @@
   font-weight: 700;
 }
 
-.background{
+/* .background{
   height: 100%;
   background: linear-gradient(209deg, rgb(5, 45, 224), rgb(13, 252, 237), rgb(223, 13, 252), rgb(6, 189, 49)) 0% 0% / 400% 400%;
   animation: 9s ease-in-out 0s infinite normal none running CustomAnimation;
   position: fixed;
   width: 100%;
   top: 0;
+} */
+
+.parallax:nth-of-type(1) {
+  position: relative;
+  /* The image used */
+  background-image: url("./components/Content/ContentParts/ParalaxImg/lo-fi1.jpg");
+
+  /* Set a specific height */
+  height: 110%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

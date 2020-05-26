@@ -11,11 +11,17 @@ const Content = () => {
     return(
         <div className="content">
             <AboutMe/>
+            <div className="parallax n2"></div>
             <TechStack/>
+            <div className="parallax n3"></div>
             <Experience/>
+            <div className="parallax n4"></div>
             <Education/>
+            <div className="parallax n5"></div>
             <Projects/>
+            <div className="parallax n6"></div>
             <Contacts/>
+            <div className="parallax n7"></div>
         </div>
     );
 }

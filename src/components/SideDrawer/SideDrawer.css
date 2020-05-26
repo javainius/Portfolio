@@ -31,7 +31,7 @@
     width: 70%;
     position: relative;
     margin: 10% 0;
-    color: #03e9f4;
+    color: #ffffff;
     text-decoration: none;
     font-size: 15px;
     padding: 20px 30px;
@@ -45,11 +45,11 @@
 
 .side-drawer a:hover {
     color: #050801;
-    background: #03e9f4;
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 200px #03e9f4;
+    background: #ffffff;
+    box-shadow: 0 0 5px #ffffff,
+                0 0 25px #ffffff,
+                0 0 50px #ffffff,
+                0 0 200px #ffffff;
 }
 
 a span {
@@ -63,7 +63,7 @@ a span:nth-child(1){
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent,#03e9f4);
+    background: linear-gradient(90deg, transparent,#ffffff);
     animation: animate1 1s linear infinite;
 }
 
@@ -81,7 +81,7 @@ a span:nth-child(2){
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent,#03e9f4);
+    background: linear-gradient(180deg, transparent,#ffffff);
     animation: animate2 1s linear infinite;
     animation-delay: 0.25s;
 }
@@ -100,7 +100,7 @@ a span:nth-child(3){
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent,#03e9f4);
+    background: linear-gradient(270deg, transparent,#ffffff);
     animation: animate3 1s linear infinite;
     animation-delay: 0.5s;
 }
@@ -119,7 +119,7 @@ a span:nth-child(4){
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent,#03e9f4);
+    background: linear-gradient(360deg, transparent,#ffffff);
     animation: animate4 1s linear infinite;
     animation-delay: 0.75s;
 }
